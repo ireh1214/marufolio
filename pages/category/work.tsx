@@ -26,6 +26,17 @@ const work: NextPage = () => {
           link="https://daangn-maru.vercel.app/"
         />
         <WorkCard
+          name="Commission"
+          cont="그림 외주 및 커미션 등을 받는 개인 용도의 사이트를 제작하였습니다."
+          stackA="Html"
+          stackB="SASS"
+          stackC="한영 번역기능"
+          stackD="자동복사 기능"
+          stackE="Github"
+          image="work4-4.png"
+          link="https://hi-wolfy-commission.vercel.app/"
+        />
+        <WorkCard
           name="HANGTAKU!"
           cont="친구들과 함께 글을 쓸 수 있는 다이어리 블로그를 만들자는 취지로 제작하였습니다."
           stackA="React"
