@@ -1,0 +1,44 @@
+{
+  "work": [
+    {
+      "id": 1,
+      "catchPhrase": "(-)",
+      "award": "(-)"
+    },
+    {
+      "id": 2,
+      "catchPhrase": "(-)",
+      "award": "(-)"
+    },
+    {
+      "id": 3,
+      "catchPhrase": "(-)"
+    },
+    {
+      "id": 4,
+      "catchPhrase": "(-)",
+      "award": "(-)"
+    }
+  ],
+  "project": [
+    {
+      "id": 1,
+      "catchPhrase": "(-)",
+      "award": "(-)"
+    },
+    {
+      "id": 2,
+      "catchPhrase": "(-)",
+      "award": "(-)"
+    },
+    {
+      "id": 3,
+      "catchPhrase": "(-)"
+    },
+    {
+      "id": 4,
+      "catchPhrase": "(-)",
+      "award": "(-)"
+    }
+  ]
+}

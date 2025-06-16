@@ -1,0 +1,12 @@
+.node_modules/
+.robots.txt
+.yarn.lock
+
+
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

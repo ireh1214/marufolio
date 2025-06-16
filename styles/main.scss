@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  font-family: ‘SUIT’, sans-serif;
+  font-family: ‘SUIT Variable’, sans-serif;
+}
+
+// 이미지 우클릭 방지
+img {
+  pointer-events: none;
+  -webkit-touch-callout: none !important;
+  -webkit-user-drag: none !important;
+  user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  -webkit-user-select: none !important;
+}
+
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-size: contain;
+  overflow-y: scroll;
+}
+
+// header
+header {
+  width: 100%;
+  height: 3.125rem;
+  background-color: white;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  box-shadow: 0 0.125rem 0.9375rem rgba(0, 0, 0, 0.11),
+    0 0.1875rem 0.9375rem rgba(0, 0, 0, 0.11);
+}
+
+// .small {
+//   font-size: 90%;
+// }
+
+// .bold {
+//   font-weight: 900;
+//   color: #333;
+// }
+
+* {
+  background-size: contain;
+  background-repeat: no-repeat;
+  word-break: keep-all;
+}
+
+.MainWrap {
+  width: 100%;
+}
+.LayoutWrap {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: rgb(241 245 249);
+}
+
+@media all and (min-width: 779px) {
+  .LayoutWrap {
+    width: 100%;
+    min-height: 90vh;
+    background-color: rgb(241 245 249);
+  }
+}
+
+@media only screen and (max-width: 45rem) {
+  html {
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  body {
+    width: 1280px;
+    margin: 0 auto;
+  }
+ 
+  .MainWrap {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh !important;
+  }
+
+  .sideBar {
+    width: 300px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+  }
+}
